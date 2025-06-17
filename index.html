@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>彼方に咲く｜角色選擇</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function selectMember(memberId) {
+      localStorage.setItem('selectedMember', memberId);
+      window.location.href = memberId + "_scene1.html";
+    }
+  </script>
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="content">
+    <h1>《彼方に咲く》</h1>
+    <p class="subtitle">—— 青春的選擇，從這裡開始。</p>
+    <div class="member-grid">
+      
+    <div class="member-card" onclick="selectMember('junki')">
+      <h2>河野純喜</h2>
+      <p>「我想被你聽見。」</p>
+    </div>
+    
+
+    <div class="member-card" onclick="selectMember('kimata')">
+      <h2>木全翔也</h2>
+      <p>「沉默裡是為你寫的旋律。」</p>
+    </div>
+    
+
+    <div class="member-card" onclick="selectMember('ruki')">
+      <h2>白岩瑠姫</h2>
+      <p>「我不想讓任何人看見你哭的模樣。」</p>
+    </div>
+    
+
+    <div class="member-card" onclick="selectMember('shion')">
+      <h2>鶴房汐恩</h2>
+      <p>「我把你畫進了我每天醒來的夢。」</p>
+    </div>
+    
+
+    <div class="member-card" onclick="selectMember('shosei')">
+      <h2>大平祥生</h2>
+      <p>「我不急著被你喜歡，但希望你能先看到我。」</p>
+    </div>
+    
+
+    <div class="member-card" onclick="selectMember('sky')">
+      <h2>金城碧海</h2>
+      <p>「我不說我喜歡你，但我會一直站在你前面。」</p>
+    </div>
+    
+
+    <div class="member-card" onclick="selectMember('ren')">
+      <h2>川尻蓮</h2>
+      <p>「你一靠近，我就忘了怎麼退場。」</p>
+    </div>
+    
+
+    <div class="member-card" onclick="selectMember('takumi')">
+      <h2>川西拓實</h2>
+      <p>「我總說笑，是因為太怕你聽見我真的喜歡你。」</p>
+    </div>
+    
+
+    <div class="member-card" onclick="selectMember('mame')">
+      <h2>豆原一成</h2>
+      <p>「我喜歡你，就這麼簡單！」</p>
+    </div>
+    
+
+    <div class="member-card" onclick="selectMember('keigo')">
+      <h2>佐藤景瑚</h2>
+      <p>「我沒說是你，但每一幅畫都是關於你。」</p>
+    </div>
+    
+
+    <div class="member-card" onclick="selectMember('sho')">
+      <h2>與那城奬</h2>
+      <p>「我安排好所有人，卻沒安排過可以任性一次。」</p>
+    </div>
+    
+    </div>
+  </div>
+</body>
+</html>
